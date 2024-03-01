@@ -2,8 +2,8 @@
   <div class="login">
     <h1>This is an Login page</h1>
     <form>
-      <input type = "email" placeholder="happy@example.com"/>
-      <input type = "password" placeholder="123456"/>
+      <input type = "email" v-model = "form.email" placeholder="happy@example.com"/>
+      <input type = "password" v-model = "form.password" placeholder="123456"/>
     </form>
     <button @click= "submitLogin" >로그인</button>
   </div>
